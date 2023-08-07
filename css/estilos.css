@@ -1,0 +1,51 @@
+header{
+    padding: 0px 50px 10px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    display: flex;
+    justify-content: center;
+
+}
+.logo{
+    width: 250px;
+   }
+
+.foto{
+    width: 65%;
+}
+.icono{
+    width: 150%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    margin: 10px;
+
+}
+li {
+    text-decoration: none;
+    margin: 5px;
+}
+@media screen and (max-width:480px{
+   .logo{
+    width: 150px;
+   }
+   main{
+    padding: 50px;
+   }
+  .footer{
+    padding-left: 15px;
+  }
+  header{
+    padding :10px 250px 10px 10px
+    ;
+  }
+    
+}
